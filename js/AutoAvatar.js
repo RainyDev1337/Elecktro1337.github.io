@@ -1,4 +1,4 @@
-	//Добавление loader'a на страницу
+﻿	//Добавление loader'a на страницу
 	var pic = document.getElementById("image01");
 	var loader = document.createElement("div");
 	loader.style = "display: none;z-index: 100;width: 435px;height: 435px;position: fixed;background: url(https://m.vk.com/images/mobile/oupload.gif) no-repeat 50% 50%;background-color: rgba(255, 255, 255, 0.5);vertical-align: top;margin: 0px auto;";
@@ -17,7 +17,7 @@
 	//Получение фотографии и вставка её
 	$.ajax({
 		type: "GET",
-		url: 'https://api.vk.com/method/users.get?user_id=183258589&fields=photo_max_orig',
+		url: 'https://api.vk.com/method/users.get?user_id=183258589&fields=photo_max_orig&v=1337',
 		dataType: 'jsonp',
 		success: function(data){
 			console.log(data);
