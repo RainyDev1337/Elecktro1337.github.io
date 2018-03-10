@@ -9,10 +9,10 @@ body
   background-color:#F6F4F4;
  border-style: outset;
  
-  width:90%;
+  width:75%;
   border-radius:24px;
   border-width:5px;
- margin-left:60px;
+ margin-left:160px;
  margin-right:50px;
 }
 .cnt2
@@ -30,12 +30,12 @@ margin-bottom:30px;
   background-color:#E6E6E6;
  border:5px;
   min-width:55%;
-  border-radius:10px;
+  border-radius:1px;
 margin-bottom:10px;
 }
 .prog
 {
-  width:75%;
+  width:85%;
   border-radius:10px;
   background-color:#FFFFFF;
   border:1px;
