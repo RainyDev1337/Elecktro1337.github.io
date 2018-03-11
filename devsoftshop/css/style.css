@@ -3,7 +3,9 @@ body
   
  font-family:monospace;
   background-color:#464646;
-  background-image: url('');
+   padding: 0px;
+   margin: 0px;
+   margin-top: 0px;
 }
 .area {
   text-align: center;
