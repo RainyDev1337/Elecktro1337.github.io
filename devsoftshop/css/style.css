@@ -73,6 +73,13 @@ body
   border-radius:10px;
   margin-bottom:30px;
 }
+#gradient
+{
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
+}
 .listt
 {
   font-size:38pt;
