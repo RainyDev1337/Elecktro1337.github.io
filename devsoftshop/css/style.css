@@ -37,6 +37,22 @@ body
   }
 }
 
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text {
+  font-weight: 100;
+  font-size: 40pt;
+  color: #FFFFF;
+}
+.dud {
+  color: black;
+}
+
 .cnt
 {
   background-color:#F6F4F4;
@@ -50,21 +66,22 @@ body
 }
 .cnt2
 {
-   background-color:#EFEFEF;
+  background-color:#EFEFEF;
   min-height:30%;
   width:90%;
   border-style:double;
   border-radius:10px;
-margin-bottom:30px;
+  margin-bottom:30px;
 }
 .listt
 {
   font-size:38pt;
   background-color:#E6E6E6;
- border:5px;
+  border:5px;
   min-width:55%;
-  border-radius:1px;
-margin-bottom:10px;
+  border-radius:10px;
+  margin-bottom:10px;
+  text-decoration:none
 }
 .prog
 {
@@ -74,5 +91,5 @@ margin-bottom:10px;
   border:1px;
   border-style: ridge;
   border-color:#333;
-  margin-bottom:10px;
+  margin-bottom:15px;
 }
