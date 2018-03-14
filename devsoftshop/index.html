@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
  <head>
+ 
+<script type="text/javascript" src="http://vk.com/js/api/openapi.js?152"></script>
+
+<script type="text/javascript">
+  VK.init({apiId: 6404884, onlyWidgets: true});
+</script>
+
   <style type="text/css">
  .spoiler_body {display:none; cursor:pointer;}
   </style>
@@ -503,16 +510,16 @@
 		 <div>
  <a href="" class="spoiler_links" style="text-decoration: none; font-size:25pt; color:green">Отзывы</a>
  <div class="spoiler_body">
-
  <div class="prog">
 		  </div>
- <table border="0px" width="95%">
-			<tr>
-			  <th>	
-			  <p align="center" style="font-size:12pt">СКОРО (НО ЭТО НЕ ТОЧНО)</p> 			
-				</th>
-			</tr>
-		  </table>
+		  <div class="vkcom">
+<center>
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 9999, width: "800", attach: "*"});
+</script>
+</center>
+</div>
  </div>
  </div>
  </div>
