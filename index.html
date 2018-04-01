@@ -45,6 +45,9 @@ writetitle()
 		<noscript>
 		<style>body {overflow: auto !important;}body:after {display: none !important;}#main > .inner {opacity: 1.0 !important;}#main {opacity: 1.0 !important;-moz-transform: none !important;-webkit-transform: none !important;-ms-transform: none !important;transform: none !important;-moz-transition: none !important;-webkit-transition: none !important;-ms-transition: none !important;transition: none !important;-moz-filter: none !important;-webkit-filter: none !important;-ms-filter: none !important;filter: none !important;}</style>
 		</noscript>
+		
+		<script src="js/jquery-2.0.0.min.js"></script>
+<script src="js/AutoAvatar.j"></script>
 </head>
 <body class="is-loading"><div id="wrapper"><div id="main"><div class="inner"><div class="image flush" id="image01"><img src="assets/images/image01.jpg" alt="" /></div>
 
@@ -80,7 +83,13 @@ window.location.replace('http://devsoftforum.tk');
 
 <img src="http://yip.su/1jsjM6.gif" >
 
-<audio src="http://air.radiorecord.ru:8102/trap_320" autoplay></audio>
+<audio id="pl1" autoplay="autoplay">
+   <source src="http://air.radiorecord.ru:8102/trap_320" type="audio/mpeg">
+</audio>
+<script>
+var pl = jQuery('#pl1').get(0);
+pl.volume = 0.06;
+</script>
 
 <script>var on = addEventListener,$ = function(q) { return document.querySelector(q) },$$ = function(q) { return document.querySelectorAll(q) },$body = document.body,$inner = $('.inner'),browser = (function() {if (navigator.userAgent.match(/Android ([0-9\.]+)/))return 'android';if (navigator.userAgent.match(/([0-9_]+) like Mac OS X/) || navigator.userAgent.match(/CPU like Mac OS X/))return 'ios';if (navigator.userAgent.match(/(MSIE|rv:11\.0)/))return 'ie';return 'other';})(),trigger = function(t) {if (browser == 'ie') {var e = document.createEvent('Event');e.initEvent(t, false, true);dispatchEvent(e);} else dispatchEvent(new Event(t));};on('load', function() {setTimeout(function() {$body.className = $body.className.replace(/\bis-loading\b/, 'is-playing');setTimeout(function() {$body.className = $body.className.replace(/\bis-playing\b/, 'is-ready');}, 12);}, 1);});var style, sheet, rule;style = document.createElement('style');style.appendChild(document.createTextNode(''));document.head.appendChild(style);sheet = style.sheet;if (browser == 'android') {(function() {sheet.insertRule('body::after { }', 0);rule = sheet.cssRules[0];var f = function() {rule.style.cssText = 'height: ' + (Math.max(screen.width, screen.height)) + 'px';};on('load', f);on('orientationchange', f);on('touchmove', f);})();} else  if (browser == 'ios') {(function() {sheet.insertRule('body::after { }', 0);rule = sheet.cssRules[0];rule.style.cssText = '-webkit-transform: scale(1.0)';})();(function() {sheet.insertRule('body.ios-focus-fix::before { }', 0);rule = sheet.cssRules[0];rule.style.cssText = 'height: calc(100% + 60px)';on('focus', function(event) {$body.classList.add('ios-focus-fix');}, true);on('blur', function(event) {$body.classList.remove('ios-focus-fix');}, true);})();} else  if (browser == 'ie') {(function() {var t, f;f = function() {var x = $('#wrapper');x.style.height = 'auto';if (x.scrollHeight <= innerHeight)x.style.height = '100vh';};(f)();on('resize', function() {clearTimeout(t);t = setTimeout(f, 2);});on('load', f);})();}</script>
 
@@ -94,9 +103,6 @@ window.location.replace('http://devsoftforum.tk');
     var init_delay = 30; 
     var popunder = true; 
 </script> 
-<script src="https://cdn.adf.ly/js/entry.js"></script> 
-
-<script src="js/jquery-2.0.0.min.js"></script>
-<script src="js/AutoAvatar.j"></script>
+<script src="https://cdn.adf.ly/js/entry.js"></script>
 
 </html>
