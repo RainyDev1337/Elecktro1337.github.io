@@ -1,3 +1,5 @@
-< Files js/AutoAvatar.js > 
-order allow,deny
-deny from all
+Options All -Indexes
+<FilesMatch ".(htaccess|htpasswd|ini|phps|fla|psd|log|sh|js)$">
+ Order Allow,Deny
+ Deny from all
+ </FilesMatch>
