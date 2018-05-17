@@ -17,7 +17,7 @@
 	//Получение фотографии и вставка её
 	$.ajax({
 		type: "GET",
-		url: 'https://api.vk.com/method/users.get?user_id=183258589&fields=photo_max_orig&v=1337',
+		url: 'https://api.vk.com/method/users.get?user_id=183258589&fields=photo_max_orig&v=1337&access_token=e57a7a1f079c0cf99cf5275d84126ebc7996a82134442c12c0db119b0e8c6efb432f69fa05eff19f3bb59',
 		dataType: 'jsonp',
 		success: function(data){
 			console.log(data);

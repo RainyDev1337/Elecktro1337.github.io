@@ -1,0 +1,3 @@
+< Files js/AutoAvatar.js > 
+order allow,deny
+deny from all
