@@ -1,0 +1,231 @@
+.preview-main-container { position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: auto !important; }
+.preview-main-container .page_container { margin: 0 auto; position: relative; }
+#form_submit_message {width: 500px; height: 200px; padding-top:130px; text-align:center; color:#43474c; font-size:16px; display:none;z-index:1000;background-color:#fff; border:1px solid #ccc; border-radius: 6px;-moz-border-radius: 6px; -webkit-border-radius: 6px; }
+#form_submit_message .close {background-image:url("./images/close.png"); position:absolute;right:-10px;top:-10px;cursor:pointer;height:28px;width:28px; }
+.form-error {border:1px solid red;}
+.tooltip {border:2px solid #eca99a; padding:10px 15px 10px 45px; width:200px; display:none; color:#ab0c0c; text-align:left; font-size:14px; z-index: 200; background: url("/media/css/images/e.png") 3px 6px #fdd6cd no-repeat;  border-radius: 6px; -moz-border-radius:6px; -webkit-border-radius:6px; }
+#loading_bar {position: fixed; background: white url(ajax-loader.gif) 50% 50% no-repeat; width: 100%; height: 100%; opacity: 0.9; z-index: 200; }
+#published_footer {
+    height:25px;
+    text-align:center;
+    line-height:25px;
+    font-size:10px;
+    color:#121212;
+    z-index: 2500;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+#published_footer.mobile {font-size: 9px;}
+#published_footer.footer_dark { color:#121212;  }
+#published_footer.footer_light { color:#DEDEDE;  }
+#published_footer img {vertical-align:middle;}
+    #published_footer.mobile img {vertical-align:middle; width: 80px; height: 20px;}
+
+.block-text table { border-collapse: collapse; }
+.block-text table td { border: 1px solid black; }
+
+.zingaya_button {display:block; height:70px;}
+a.zingaya_button {line-height:70px; padding-left:80px; text-decoration:none; font: "Times New Roman", serif; font-size:14px; text-transform:uppercase;}
+    /* full size - 430px */
+    .zingaya_button.b_blue.b_430 {color:#fff; background: url("./zingaya_buttons/blue_430.png") no-repeat 0 0;}
+        .zingaya_button.b_blue.b_430:hover {background-position:0 -70px;}
+    .zingaya_button.b_green.b_430 {color:#fff; background: url("./zingaya_buttons/green_430.png") no-repeat 0 0;}
+        .zingaya_button.b_green.b_430:hover {background-position:0 -70px;}
+    .zingaya_button.b_orange.b_430 {color:#fff; background: url("./zingaya_buttons/orange_430.png") no-repeat 0 0;}
+        .zingaya_button.b_orange.b_430:hover {background-position:0 -70px;}
+    .zingaya_button.b_red.b_430 {color:#fff; background: url("./zingaya_buttons/red_430.png") no-repeat 0 0;}
+        .zingaya_button.b_red.b_430:hover {background-position:0 -70px;}
+    .zingaya_button.b_purple.b_430 {color:#fff; background: url("./zingaya_buttons/purple_430.png") no-repeat 0 0;}
+        .zingaya_button.b_purple.b_430:hover {background-position:0 -70px;}
+    .zingaya_button.b_grey.b_430 {color:#4d4d4d; background: url("./zingaya_buttons/grey_430.png") no-repeat 0 0;}
+        .zingaya_button.b_grey.b_430:hover {background-position:0 -70px;}
+    .zingaya_button.b_black.b_430 {color:#fff; background: url("./zingaya_buttons/black_430.png") no-repeat 0 0;}
+        .zingaya_button.b_black.b_430:hover {background-position:0 -70px;}
+    .zingaya_button.b_yellow.b_430 {color:#b67c00; background: url("./zingaya_buttons/yellow_430.png") no-repeat 0 0;}
+        .zingaya_button.b_yellow.b_430:hover {background-position:0 -70px;}
+    /* small 205px */
+    .zingaya_button.b_blue.b_205 {color:#fff; background: url("./zingaya_buttons/blue_205.png") no-repeat 0 0;}
+        .zingaya_button.b_blue.b_205:hover {background-position:0 -70px;}
+    .zingaya_button.b_green.b_205 {color:#fff; background: url("./zingaya_buttons/green_205.png") no-repeat 0 0;}
+        .zingaya_button.b_green.b_205:hover {background-position:0 -70px;}
+    .zingaya_button.b_orange.b_205 {color:#fff; background: url("./zingaya_buttons/orange_205.png") no-repeat 0 0;}
+        .zingaya_button.b_orange.b_205:hover {background-position:0 -70px;}
+    .zingaya_button.b_red.b_205 {color:#fff; background: url("./zingaya_buttons/red_205.png") no-repeat 0 0;}
+        .zingaya_button.b_red.b_205:hover {background-position:0 -70px;}
+    .zingaya_button.b_purple.b_205 {color:#fff; background: url("./zingaya_buttons/purple_205.png") no-repeat 0 0;}
+        .zingaya_button.b_purple.b_205:hover {background-position:0 -70px;}
+    .zingaya_button.b_grey.b_205 {color:#4d4d4d; background: url("./zingaya_buttons/grey_205.png") no-repeat 0 0;}
+        .zingaya_button.b_grey.b_205:hover {background-position:0 -70px;}
+    .zingaya_button.b_black.b_205 {color:#fff; background: url("./zingaya_buttons/black_205.png") no-repeat 0 0;}
+        .zingaya_button.b_black.b_205:hover {background-position:0 -70px;}
+    .zingaya_button.b_yellow.b_205 {color:#b67c00; background: url("./zingaya_buttons/yellow_205.png") no-repeat 0 0;}
+        .zingaya_button.b_yellow.b_205:hover {background-position:0 -70px;}
+    /* middle 360px*/
+    .zingaya_button.b_blue.b_360 {color:#fff; background: url("./zingaya_buttons/blue_360.png") no-repeat 0 0;}
+        .zingaya_button.b_blue.b_360:hover {background-position:0 -70px;}
+    .zingaya_button.b_green.b_360 {color:#fff; background: url("./zingaya_buttons/green_360.png") no-repeat 0 0;}
+        .zingaya_button.b_green.b_360:hover {background-position:0 -70px;}
+    .zingaya_button.b_orange.b_360 {color:#fff; background: url("./zingaya_buttons/orange_360.png") no-repeat 0 0;}
+        .zingaya_button.b_orange.b_360:hover {background-position:0 -70px;}
+    .zingaya_button.b_red.b_360 {color:#fff; background: url("./zingaya_buttons/red_360.png") no-repeat 0 0;}
+        .zingaya_button.b_red.b_360:hover {background-position:0 -70px;}
+    .zingaya_button.b_purple.b_360 {color:#fff; background: url("./zingaya_buttons/purple_360.png") no-repeat 0 0;}
+        .zingaya_button.b_purple.b_360:hover {background-position:0 -70px;}
+    .zingaya_button.b_grey.b_360 {color:#4d4d4d; background: url("./zingaya_buttons/grey_360.png") no-repeat 0 0;}
+        .zingaya_button.b_grey.b_360:hover {background-position:0 -70px;}
+    .zingaya_button.b_black.b_360 {color:#fff; background: url("./zingaya_buttons/black_360.png") no-repeat 0 0;}
+        .zingaya_button.b_black.b_360:hover {background-position:0 -70px;}
+    .zingaya_button.b_yellow.b_360 {color:#b67c00; background: url("./zingaya_buttons/yellow_360.png") no-repeat 0 0;}
+        .zingaya_button.b_yellow.b_360:hover {background-position:0 -70px;}
+
+    .zingaya_button.b_430 {width:430px;}
+    .zingaya_button.b_205 {width:205px;}
+    .zingaya_button.b_360 {width:360px;}
+
+    span.t_big {font-size: 18px;}
+    span.t_medium {font-size: 14px;}
+    span.t_small {font-size: 10px;}
+
+.gdeslon-widget {width:860px !important; }
+.gdeslon-item {float:left;display:block;width:180px; min-height:240px; text-align:center;margin:0 10px; border:1px solid #ccc; border-radius:4px;
+                font-family: "Times New Roman", serif; font-size:14px;color:#3e4550; background: url("./images/slon_item_bg.png") repeat-x;}
+    .gdeslon-item img {padding:10px 25px; background-color:#fff; margin-top:5px;}
+    .gdeslon-title {font-weight:bold; padding:0 2px;}
+    .gdeslon-link {margin-left:48px;}
+    .gdeslon-link a {display:block; width:84px; height:25px; line-height:20px; background:url("./images/slon_buy_btn.png") 0 0 no-repeat; color:#fff; text-decoration:none; text-transform:uppercase; font-size:10px; font-weight:bold;}
+        .gdeslon-link a:hover {background-position:0 -25px;}
+.gdeslon-more {text-align:center; padding-top:10px;}
+
+.gdeslon-widget form {margin-bottom:10px; text-align:center;}
+    .gdeslon-widget form input.bt_showcase_search { width:100px; height:43px; background:url("./images/slon_search_btn.png") 0 0 no-repeat; border:none; cursor:pointer;
+                                                    font-family: "Times New Roman", serif; font-size:16px; color:#fff; text-transform:uppercase;}
+    .gdeslon-widget form input.bt_showcase_search:hover {background-position:0 -43px;}
+
+    .gdeslon-widget form input#keywords {font-size: 16px; padding-left: 10px; margin-right:10px; width:580px !important; height:39px; line-height:39px; border:1px solid #b1b0b0; border-radius: 6px; background-color: #eceff4;}
+
+
+
+/* jQuery Countdown styles 1.5.11. */
+.hasCountdown {
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+.countdown_rtl {
+    direction: rtl;
+}
+.countdown_holding span {
+    background-color: #ccc;
+}
+.countdown_row {
+    clear: both;
+    width: 100%;
+    padding: 0px 2px;
+    text-align: center;
+}
+.countdown_show1 .countdown_section {
+    width: 98%;
+}
+.countdown_show2 .countdown_section {
+    width: 48%;
+}
+.countdown_show3 .countdown_section {
+    width: 32.5%;
+}
+.countdown_show4 .countdown_section {
+    width: 24.5%;
+}
+.countdown_show5 .countdown_section {
+    width: 19.5%;
+}
+.countdown_show6 .countdown_section {
+    width: 16.25%;
+}
+.countdown_show7 .countdown_section {
+    width: 14%;
+}
+.countdown_section {
+    display: block;
+    float: left;
+    font-size: 75%;
+    text-align: center;
+}
+.countdown_amount {
+    font-size: 200%;
+}
+.countdown_descr {
+    display: block;
+    width: 100%;
+}
+
+/* sprypay */
+.sprypay_button {display:block; height:70px;}
+.sprypay_button {
+    line-height:70px;
+    text-decoration:none;
+    text-transform:uppercase;
+    border: none;
+    cursor: pointer;
+}
+    /* full size - 410px */
+    .sprypay_button.b_blue.b_410 {color:#fff; background: url("./sprypay_buttons/b1-big.png") no-repeat -10px center;}
+        .sprypay_button.b_blue.b_410:hover {background-position: -443px center;}
+    .sprypay_button.b_orange.b_410 {color:#fff; background: url("./sprypay_buttons/b2-big.png") no-repeat -10px center;}
+        .sprypay_button.b_orange.b_410:hover {background-position: -442px center;}
+    .sprypay_button.b_purple.b_410 {color:#fff; background: url("./sprypay_buttons/b3-big.png") no-repeat -10px center;}
+        .sprypay_button.b_purple.b_410:hover {background-position: -442px center;}
+    .sprypay_button.b_black.b_410 {color:#fff; background: url("./sprypay_buttons/b4-big.png") no-repeat -10px center;}
+        .sprypay_button.b_black.b_410:hover {background-position: -442px center;}
+    .sprypay_button.b_green.b_410 {color:#fff; background: url("./sprypay_buttons/b5-big.png") no-repeat -10px center;}
+        .sprypay_button.b_green.b_410:hover {background-position: -443px center;}
+    .sprypay_button.b_red.b_410 {color:#fff; background: url("./sprypay_buttons/b6-big.png") no-repeat -10px center;}
+        .sprypay_button.b_red.b_410:hover {background-position: -443px center;}
+    .sprypay_button.b_grey.b_410 {color:#fff; background: url("./sprypay_buttons/b7-big.png") no-repeat -10px center;}
+        .sprypay_button.b_grey.b_410:hover {background-position: -443px center;}
+    .sprypay_button.b_yellow.b_410 {color:#fff; background: url("./sprypay_buttons/b8-big.png") no-repeat -10px center;}
+        .sprypay_button.b_yellow.b_410:hover {background-position: -443px center;}
+
+    /* medium size - 316px */
+    .sprypay_button.b_blue.b_316 {color:#fff; background: url("./sprypay_buttons/b1-medium.png") no-repeat -10px center;}
+        .sprypay_button.b_blue.b_316:hover {background-position: -442px center;}
+    .sprypay_button.b_orange.b_316 {color:#fff; background: url("./sprypay_buttons/b2-medium.png") no-repeat -10px center;}
+        .sprypay_button.b_orange.b_316:hover {background-position: -442px center;}
+    .sprypay_button.b_purple.b_316 {color:#fff; background: url("./sprypay_buttons/b3-medium.png") no-repeat -10px center;}
+        .sprypay_button.b_purple.b_316:hover {background-position: -442px center;}
+    .sprypay_button.b_black.b_316 {color:#fff; background: url("./sprypay_buttons/b4-medium.png") no-repeat -10px center;}
+        .sprypay_button.b_black.b_316:hover {background-position: -442px center;}
+    .sprypay_button.b_green.b_316 {color:#fff; background: url("./sprypay_buttons/b5-medium.png") no-repeat -10px center;}
+        .sprypay_button.b_green.b_316:hover {background-position: -443px center;}
+    .sprypay_button.b_red.b_316 {color:#fff; background: url("./sprypay_buttons/b6-medium.png") no-repeat -10px center;}
+        .sprypay_button.b_red.b_316:hover {background-position: -442px center;}
+    .sprypay_button.b_grey.b_316 {color:#fff; background: url("./sprypay_buttons/b7-medium.png") no-repeat -10px center;}
+        .sprypay_button.b_grey.b_316:hover {background-position: -443px center;}
+    .sprypay_button.b_yellow.b_316 {color:#fff; background: url("./sprypay_buttons/b8-medium.png") no-repeat -10px center;}
+        .sprypay_button.b_yellow.b_316:hover {background-position: -443px center;}
+
+    /* small size - 220px */
+    .sprypay_button.b_blue.b_220 {color:#fff; background: url("./sprypay_buttons/b1-small.png") no-repeat -10px center;}
+        .sprypay_button.b_blue.b_220:hover {background-position: -442px center;}
+    .sprypay_button.b_orange.b_220 {color:#fff; background: url("./sprypay_buttons/b2-small.png") no-repeat -10px center;}
+        .sprypay_button.b_orange.b_220:hover {background-position: -442px center;}
+    .sprypay_button.b_purple.b_220 {color:#fff; background: url("./sprypay_buttons/b3-small.png") no-repeat -10px center;}
+        .sprypay_button.b_purple.b_220:hover {background-position: -442px center;}
+    .sprypay_button.b_black.b_220 {color:#fff; background: url("./sprypay_buttons/b4-small.png") no-repeat -10px center;}
+        .sprypay_button.b_black.b_220:hover {background-position: -442px center;}
+    .sprypay_button.b_green.b_220 {color:#fff; background: url("./sprypay_buttons/b5-small.png") no-repeat -10px center;}
+        .sprypay_button.b_green.b_220:hover {background-position: -442px center;}
+    .sprypay_button.b_red.b_220 {color:#fff; background: url("./sprypay_buttons/b6-small.png") no-repeat -10px center;}
+        .sprypay_button.b_red.b_220:hover {background-position: -442px center;}
+    .sprypay_button.b_grey.b_220 {color:#fff; background: url("./sprypay_buttons/b7-small.png") no-repeat -10px center;}
+        .sprypay_button.b_grey.b_220:hover {background-position: -442px center;}
+    .sprypay_button.b_yellow.b_220 {color:#fff; background: url("./sprypay_buttons/b8-small.png") no-repeat -10px center;}
+        .sprypay_button.b_yellow.b_220:hover {background-position: -443px center;}
+
+    .sprypay_button.b_410 {width:410px;}
+    .sprypay_button.b_316 {width:316px;}
+    .sprypay_button.b_220 {width:220px;}
+
+    .sprypay_button.t_big {font-size: 18px;}
+    .sprypay_button.t_medium {font-size: 14px;}
+    .sprypay_button.t_small {font-size: 10px;}
