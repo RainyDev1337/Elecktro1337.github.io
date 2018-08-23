@@ -267,3 +267,16 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 #tabs.graph { position: relative; }
 #tabs.graph #loading_bar { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
 
+@media screen and (max-width: 2500px) {
+#block-new19 {
+visibility: hidden;
+display: none;
+}
+#block-new18{
+	margin-left:420px
+}
+}
+
+#block-new10 {
+	margin-left:-190px
+}
